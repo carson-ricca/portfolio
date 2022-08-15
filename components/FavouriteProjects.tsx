@@ -73,7 +73,6 @@ export default function FavouriteProjects() {
             </div>
           </a>
           {/* Single card */}
-          {/* Ultimately replace with the portfolio*/}
           <a
             href="https://github.com/carson-ricca/thesis"
             className="w-full block col-span-3 sm:col-span-1  object-cover"

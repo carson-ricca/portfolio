@@ -1,5 +1,6 @@
 import axios from "axios";
 
+//@ts-expect-error
 const getLatestRepos = async (data, token) => {
   // console.log("data", data);
   try {
