@@ -34,7 +34,7 @@ export default function AboutMe() {
                 Contact
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                For any questions you may have or if you're just looking to
+                For any questions you may have or if you&apos;re just looking to
                 connect, shoot me an{" "}
                 <a
                   href={`mailto:${userData.email}`}
@@ -42,7 +42,7 @@ export default function AboutMe() {
                 >
                   email
                 </a>{" "}
-                and I'll get back to you.
+                and I&apos;ll get back to you.
               </p>
             </div>
             <div className="mt-8">
@@ -59,8 +59,8 @@ export default function AboutMe() {
                 >
                   CV
                 </a>{" "}
-                and reach out to me. I'll be more than happy to have a coffee
-                chat.
+                and reach out to me. I&apos;ll be more than happy to have a
+                coffee chat.
               </p>
             </div>
             {/* Social Links */}

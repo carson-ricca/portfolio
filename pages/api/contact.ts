@@ -15,10 +15,21 @@ const oAuth2Client = new google.auth.OAuth2(
 );
 oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
 
-export default async function handler(req, res) {
+export default async function handler(
+  req: { body: { name: any; email: any; message: any } },
+  res: {
+    status: (arg0: number) => {
+      (): any;
+      new (): any;
+      json: { (arg0: { message: string }): any; new (): any };
+      end: { (arg0: { error: unknown }): any; new (): any };
+    };
+  }
+) {
   try {
     const accessToken = await oAuth2Client.getAccessToken();
     const transporter = nodemailer.createTransport({
+      //@ts-expect-error
       host: "smtp.gmail.com",
       port: 465,
       secure: true,

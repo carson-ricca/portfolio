@@ -7,9 +7,11 @@ import Hero from "../components/Hero";
 import getLatestRepos from "../lib/getLatestRepos";
 import userData from "../constants/data";
 
+//@ts-expect-error
 export default function Home({ repositories }) {
   return (
     <ContainerBlock
+      //@ts-expect-error
       title="Carson Ricca - Software Developer"
       description="My personal portfolio highlighting my accomplishments and skills."
     >

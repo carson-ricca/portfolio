@@ -1,6 +1,13 @@
 import React from "react";
 import userData from "../constants/data";
 
+interface Project {
+  title: string;
+  link: string;
+  imgUrl: string;
+  number: string;
+}
+
 export default function Projects() {
   return (
     <section className="bg-white dark:bg-gray-800">
@@ -27,7 +34,7 @@ export default function Projects() {
   );
 }
 
-const ProjectCard = ({ title, link, imgUrl, number }) => {
+const ProjectCard = ({ title, link, imgUrl, number }: Project) => {
   return (
     <a href={link} className="w-full block shadow-2xl">
       <div className="relative overflow-hidden">
