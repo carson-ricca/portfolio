@@ -53,15 +53,13 @@ export default async function handler(
     transporter.sendMail(mailData, (err, info) => {
       if (err) {
         console.log(err);
+        return res.status(500).end({ error: err });
       } else {
         console.log(info);
+        return res.status(200).json({ message: "Mail is sent." });
       }
     });
-    return res.status(200).json({ message: "Mail is sent." });
   } catch (error) {
-    return res
-      .status(500)
-      .json({ message: FROM_EMAIL ? FROM_EMAIL : "" })
-      .end({ error: error });
+    return res.status(500).end({ error: error });
   }
 }
