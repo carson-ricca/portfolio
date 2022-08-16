@@ -4,7 +4,6 @@ import axios from "axios";
 const getLatestRepos = async (data, token) => {
   try {
     const username = data.githubUsername;
-    // let token = `token ${process.env.GITHUB_AUTH_TOKEN}`;
     if (token) {
       const res = await axios.get(
         `https://api.github.com/search/repositories?q=user:${username}+sort:author-date-asc`,

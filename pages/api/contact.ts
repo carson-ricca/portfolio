@@ -1,12 +1,12 @@
 import nodemailer from "nodemailer";
 import { google } from "googleapis";
 
-const CLIENT_ID = process.env.clientId;
-const CLIENT_SECRET = process.env.clientSecret;
-const REDIRECT_URI = process.env.redirectURI;
-const REFRESH_TOKEN = process.env.refreshToken;
-const TO_EMAIL = process.env.toEmail;
-const FROM_EMAIL = process.env.fromEmail;
+const CLIENT_ID = process.env.CLIENT_ID;
+const CLIENT_SECRET = process.env.CLIENT_SECRET;
+const REDIRECT_URI = process.env.REDIRECT_URI;
+const REFRESH_TOKEN = process.env.REFRESH_TOKEN;
+const TO_EMAIL = process.env.TO_EMAIL;
+const FROM_EMAIL = process.env.FROM_EMAIL;
 
 const oAuth2Client = new google.auth.OAuth2(
   CLIENT_ID,
