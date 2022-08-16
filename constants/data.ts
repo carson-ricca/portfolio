@@ -12,6 +12,11 @@ const userData = {
       imgUrl: "/gamification.png",
     },
     {
+      title: "Portfolio Website",
+      link: "https://carsonricca.com",
+      imgUrl: "/portfolio.png",
+    },
+    {
       title: "Postn",
       link: "https://postn-dev.herokuapp.com/",
       imgUrl: "/postn.png",
@@ -25,11 +30,6 @@ const userData = {
       title: "Smelly Code",
       link: "https://github.com/carson-ricca/smelly-code",
       imgUrl: "/smelly-code.png",
-    },
-    {
-      title: "Portfolio",
-      link: "https://github.com/carson-ricca/oomck-bot",
-      imgUrl: "/algochurn.png",
     },
   ],
   about: {
