@@ -35,7 +35,7 @@ export default async function handler(
       secure: true,
       auth: {
         type: "OAuth2",
-        user: "carsonriccaweb@gmail.com",
+        user: FROM_EMAIL,
         clientId: CLIENT_ID,
         clientSecret: CLIENT_SECRET,
         refreshToken: REFRESH_TOKEN,
@@ -59,6 +59,9 @@ export default async function handler(
     });
     return res.status(200).json({ message: "Mail is sent." });
   } catch (error) {
-    return res.status(500).end({ error: error });
+    return res
+      .status(500)
+      .json({ message: FROM_EMAIL ? FROM_EMAIL : "" })
+      .end({ error: error });
   }
 }
