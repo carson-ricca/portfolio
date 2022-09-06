@@ -1,12 +1,6 @@
 import React from "react";
 import userData from "../constants/data";
-
-interface Project {
-  title: string;
-  link: string;
-  imgUrl: string;
-  number: string;
-}
+import { Project } from "../types/project";
 
 export default function Projects() {
   return (

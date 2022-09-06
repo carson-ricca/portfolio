@@ -1,12 +1,8 @@
-import React, { ReactNode } from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-
-interface Props {
-  children?: ReactNode;
-}
+import { Props } from "../types/props";
 
 export default function ContainerBlock({ children, ...customMeta }: Props) {
   const router = useRouter();
