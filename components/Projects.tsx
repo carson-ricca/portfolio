@@ -32,11 +32,11 @@ const ProjectCard = ({ title, link, imgUrl, number }: Project) => {
   return (
     <a href={link} className="w-full block shadow-2xl">
       <div className="relative overflow-hidden">
-        <div className="h-72 object-cover">
+        <div className="object-cover">
           <img
             src={imgUrl}
             alt="Project"
-            className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
+            className="transform hover:scale-125 transition duration-2000 ease-out"
           />
         </div>
         <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
