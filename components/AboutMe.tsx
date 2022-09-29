@@ -158,6 +158,13 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
             </div>
+            <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+              Certifications
+            </h1>
+            <div className="flex flex-row flex-wrap mt-8">
+              <img src="/aws-ccp.png" className="h-20 w-20 mx-4 my-4" />
+              <img src="/genesys-ccp.png" className="h-20 w-20 mx-4 my-4" />
+            </div>
           </div>
         </div>
       </div>
