@@ -42,6 +42,7 @@ const userData = {
       "Technologies: Angular, React, Python, Django, TypeScript/JavaScript, Java, Spring, and SQL.",
       "CSS Frameworks: Bootstrap, Taiga UI, Material UI, Tailwind CSS.",
       "Project Management Tools: Jira, Trello, Confluence, GitHub, Bitbucket.",
+      "Certifications: AWS Certified Cloud Practitioner, Genesys Cloud Certified Partner.",
     ],
     currentJob: "IBM",
     currentJobUrl: "https://www.ibm.com/ca-en?lnk=m",
