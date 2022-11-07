@@ -92,7 +92,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1F6V356vUDeUPV6g7a7MByyCtT3vNRfCk/view?usp=sharing",
+    "https://drive.google.com/file/d/1E9OieubkjOCYKQUT5FZifk6ziH1mKXoH/view?usp=share_link",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/carson-ricca",
     github: "https://github.com/carson-ricca",
